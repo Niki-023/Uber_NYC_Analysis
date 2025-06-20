@@ -1,0 +1,37 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Ignore data files (uncomment if you want to ignore large datasets)
+# *.csv
+# *.tsv
+# *.xlsx
+# *.xls
+# *.json
+# data/
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+
+# OS generated files
+ehthumbs.db
+Icon?
