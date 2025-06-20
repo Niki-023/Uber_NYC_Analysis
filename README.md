@@ -4,7 +4,18 @@ This repository contains a Jupyter Notebook analyzing Uber ride data in New York
 
 ## Project Overview
 
-- **Dataset**: Uber trip data for New York City (Excel files included in the `data` folder).
+
+## Dataset
+
+The dataset used in this project is publicly available on Kaggle:
+
+📎 [Uber Pickups in New York City][(https://www.kaggle.com/datasets/your-kaggle-dataset-link](https://www.kaggle.com/datasets/fivethirtyeight/uber-pickups-in-new-york-city )
+
+
+Due to size limits, the dataset is not included in this repository.  
+You can download it from Kaggle and place the CSV files inside the `Datasets/` folder to run the notebook.
+
+
 - **Tools**: Jupyter Notebook, Python (Pandas, Matplotlib, Seaborn).
 - **Goals**:
   - Data cleaning, preprocessing
@@ -21,10 +32,8 @@ This repository contains a Jupyter Notebook analyzing Uber ride data in New York
 
 ```
 ├── Uber_data_analysis_in_NY_city.ipynb
-├── Datasets/
-│   ├── uber-raw-data-janjune-15.csv
-│   ├── uber-raw-data-jul14.csv
-│   └── ... (other dataset files)
+├── Datasets/ # Place Kaggle CSV files here after download
+│ └── (your CSV files go here)
 ├── .gitignore
 └── README.md
 ```
