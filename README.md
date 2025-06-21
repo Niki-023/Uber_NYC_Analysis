@@ -13,7 +13,11 @@ The dataset used in this project is publicly available on Kaggle:
 
 
 Due to size limits, the dataset is not included in this repository.  
-You can download it from Kaggle and place the CSV files inside the `Datasets/` folder to run the notebook.
+You can download it from Kaggle and place the CSV files inside the `data/` folder to run the notebook.
+
+Note: The `data/` folder is included with a `.gitkeep` file to preserve the folder structure.  
+Please download the dataset from Kaggle and place the CSV files inside the `data/` folder to run the notebook.
+
 
 
 - **Tools**: Jupyter Notebook, Python (Pandas, Matplotlib, Seaborn).
@@ -32,7 +36,7 @@ You can download it from Kaggle and place the CSV files inside the `Datasets/` f
 
 ```
 ├── Uber_data_analysis_in_NY_city.ipynb
-├── Datasets/ # Place Kaggle CSV files here after download
+├── data/ # Place Kaggle CSV files here after download
 │ └── (your CSV files go here)
 ├── .gitignore
 └── README.md
